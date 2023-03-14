@@ -1,0 +1,62 @@
+.signup-container {
+	width: 100vw;
+	height: 100vh;
+}
+
+.primary-button {
+	background: #a28089;
+	color: white;
+	border-radius: 4px;
+	border: none;
+	height: 40px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+.primary-button:hover {
+	color: rgb(197, 194, 194);
+}
+.form-container {
+	width: 400px;
+	/* border: 1px solid grey; */
+	border-radius: 12px;
+	box-shadow: 4px 4px 8px rgb(97, 96, 96);
+	padding: 10px 20px;
+}
+.error-container {
+	border: 1px solid red;
+	color: red;
+	background: rgba(221, 7, 7, 0.4);
+	border-radius: 12px;
+	padding: 10px 20px;
+}
+.success-container {
+	border: 1px solid skyblue;
+	color: rgb(47, 165, 212);
+	background: rgb(55, 173, 219, 0.3);
+	border-radius: 12px;
+	padding: 10px 20px;
+}
+
+.df-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pointer {
+	cursor: pointer;
+}
+
+.form-label {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.required::after {
+	content: " *";
+	color: red;
+}
