@@ -8,5 +8,5 @@ export class BookDto {
   readonly author: string;
 
   @IsNotEmpty()
-  readonly publishedOn: Date;
+  readonly publishedOn: String;
 }
